@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C1E2E901E48547D00079B00 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1E2E8F1E48547D00079B00 /* main.m */; };
+		9C1E2E931E48547D00079B00 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1E2E921E48547D00079B00 /* AppDelegate.m */; };
+		9C1E2E961E48547D00079B00 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1E2E951E48547D00079B00 /* ViewController.m */; };
+		9C1E2E991E48547D00079B00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C1E2E971E48547D00079B00 /* Main.storyboard */; };
+		9C1E2E9B1E48547D00079B00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C1E2E9A1E48547D00079B00 /* Assets.xcassets */; };
+		9C1E2E9E1E48547D00079B00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C1E2E9C1E48547D00079B00 /* LaunchScreen.storyboard */; };
+		9C1E2EA91E48547D00079B00 /* SwipeGolfTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1E2EA81E48547D00079B00 /* SwipeGolfTests.m */; };
+		9C1E2EB41E48547D00079B00 /* SwipeGolfUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1E2EB31E48547D00079B00 /* SwipeGolfUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9C1E2EA51E48547D00079B00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C1E2E831E48547D00079B00 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C1E2E8A1E48547D00079B00;
+			remoteInfo = SwipeGolf;
+		};
+		9C1E2EB01E48547D00079B00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C1E2E831E48547D00079B00 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C1E2E8A1E48547D00079B00;
+			remoteInfo = SwipeGolf;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9C1E2E8B1E48547D00079B00 /* SwipeGolf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwipeGolf.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C1E2E8F1E48547D00079B00 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9C1E2E911E48547D00079B00 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9C1E2E921E48547D00079B00 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9C1E2E941E48547D00079B00 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9C1E2E951E48547D00079B00 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9C1E2E981E48547D00079B00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9C1E2E9A1E48547D00079B00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9C1E2E9D1E48547D00079B00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9C1E2E9F1E48547D00079B00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C1E2EA41E48547D00079B00 /* SwipeGolfTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwipeGolfTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C1E2EA81E48547D00079B00 /* SwipeGolfTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwipeGolfTests.m; sourceTree = "<group>"; };
+		9C1E2EAA1E48547D00079B00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C1E2EAF1E48547D00079B00 /* SwipeGolfUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwipeGolfUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C1E2EB31E48547D00079B00 /* SwipeGolfUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwipeGolfUITests.m; sourceTree = "<group>"; };
+		9C1E2EB51E48547D00079B00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C1E2E881E48547D00079B00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C1E2EA11E48547D00079B00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C1E2EAC1E48547D00079B00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C1E2E821E48547D00079B00 = {
+			isa = PBXGroup;
+			children = (
+				9C1E2E8D1E48547D00079B00 /* SwipeGolf */,
+				9C1E2EA71E48547D00079B00 /* SwipeGolfTests */,
+				9C1E2EB21E48547D00079B00 /* SwipeGolfUITests */,
+				9C1E2E8C1E48547D00079B00 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9C1E2E8C1E48547D00079B00 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C1E2E8B1E48547D00079B00 /* SwipeGolf.app */,
+				9C1E2EA41E48547D00079B00 /* SwipeGolfTests.xctest */,
+				9C1E2EAF1E48547D00079B00 /* SwipeGolfUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C1E2E8D1E48547D00079B00 /* SwipeGolf */ = {
+			isa = PBXGroup;
+			children = (
+				9C1E2E911E48547D00079B00 /* AppDelegate.h */,
+				9C1E2E921E48547D00079B00 /* AppDelegate.m */,
+				9C1E2E941E48547D00079B00 /* ViewController.h */,
+				9C1E2E951E48547D00079B00 /* ViewController.m */,
+				9C1E2E971E48547D00079B00 /* Main.storyboard */,
+				9C1E2E9A1E48547D00079B00 /* Assets.xcassets */,
+				9C1E2E9C1E48547D00079B00 /* LaunchScreen.storyboard */,
+				9C1E2E9F1E48547D00079B00 /* Info.plist */,
+				9C1E2E8E1E48547D00079B00 /* Supporting Files */,
+			);
+			path = SwipeGolf;
+			sourceTree = "<group>";
+		};
+		9C1E2E8E1E48547D00079B00 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9C1E2E8F1E48547D00079B00 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9C1E2EA71E48547D00079B00 /* SwipeGolfTests */ = {
+			isa = PBXGroup;
+			children = (
+				9C1E2EA81E48547D00079B00 /* SwipeGolfTests.m */,
+				9C1E2EAA1E48547D00079B00 /* Info.plist */,
+			);
+			path = SwipeGolfTests;
+			sourceTree = "<group>";
+		};
+		9C1E2EB21E48547D00079B00 /* SwipeGolfUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9C1E2EB31E48547D00079B00 /* SwipeGolfUITests.m */,
+				9C1E2EB51E48547D00079B00 /* Info.plist */,
+			);
+			path = SwipeGolfUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C1E2E8A1E48547D00079B00 /* SwipeGolf */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C1E2EB81E48547D00079B00 /* Build configuration list for PBXNativeTarget "SwipeGolf" */;
+			buildPhases = (
+				9C1E2E871E48547D00079B00 /* Sources */,
+				9C1E2E881E48547D00079B00 /* Frameworks */,
+				9C1E2E891E48547D00079B00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwipeGolf;
+			productName = SwipeGolf;
+			productReference = 9C1E2E8B1E48547D00079B00 /* SwipeGolf.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9C1E2EA31E48547D00079B00 /* SwipeGolfTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C1E2EBB1E48547D00079B00 /* Build configuration list for PBXNativeTarget "SwipeGolfTests" */;
+			buildPhases = (
+				9C1E2EA01E48547D00079B00 /* Sources */,
+				9C1E2EA11E48547D00079B00 /* Frameworks */,
+				9C1E2EA21E48547D00079B00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C1E2EA61E48547D00079B00 /* PBXTargetDependency */,
+			);
+			name = SwipeGolfTests;
+			productName = SwipeGolfTests;
+			productReference = 9C1E2EA41E48547D00079B00 /* SwipeGolfTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9C1E2EAE1E48547D00079B00 /* SwipeGolfUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C1E2EBE1E48547D00079B00 /* Build configuration list for PBXNativeTarget "SwipeGolfUITests" */;
+			buildPhases = (
+				9C1E2EAB1E48547D00079B00 /* Sources */,
+				9C1E2EAC1E48547D00079B00 /* Frameworks */,
+				9C1E2EAD1E48547D00079B00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C1E2EB11E48547D00079B00 /* PBXTargetDependency */,
+			);
+			name = SwipeGolfUITests;
+			productName = SwipeGolfUITests;
+			productReference = 9C1E2EAF1E48547D00079B00 /* SwipeGolfUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C1E2E831E48547D00079B00 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Mihai A Ruber";
+				TargetAttributes = {
+					9C1E2E8A1E48547D00079B00 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					9C1E2EA31E48547D00079B00 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 9C1E2E8A1E48547D00079B00;
+					};
+					9C1E2EAE1E48547D00079B00 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 9C1E2E8A1E48547D00079B00;
+					};
+				};
+			};
+			buildConfigurationList = 9C1E2E861E48547D00079B00 /* Build configuration list for PBXProject "SwipeGolf" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9C1E2E821E48547D00079B00;
+			productRefGroup = 9C1E2E8C1E48547D00079B00 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C1E2E8A1E48547D00079B00 /* SwipeGolf */,
+				9C1E2EA31E48547D00079B00 /* SwipeGolfTests */,
+				9C1E2EAE1E48547D00079B00 /* SwipeGolfUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C1E2E891E48547D00079B00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C1E2E9E1E48547D00079B00 /* LaunchScreen.storyboard in Resources */,
+				9C1E2E9B1E48547D00079B00 /* Assets.xcassets in Resources */,
+				9C1E2E991E48547D00079B00 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C1E2EA21E48547D00079B00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C1E2EAD1E48547D00079B00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C1E2E871E48547D00079B00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C1E2E961E48547D00079B00 /* ViewController.m in Sources */,
+				9C1E2E931E48547D00079B00 /* AppDelegate.m in Sources */,
+				9C1E2E901E48547D00079B00 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C1E2EA01E48547D00079B00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C1E2EA91E48547D00079B00 /* SwipeGolfTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C1E2EAB1E48547D00079B00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C1E2EB41E48547D00079B00 /* SwipeGolfUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9C1E2EA61E48547D00079B00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C1E2E8A1E48547D00079B00 /* SwipeGolf */;
+			targetProxy = 9C1E2EA51E48547D00079B00 /* PBXContainerItemProxy */;
+		};
+		9C1E2EB11E48547D00079B00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C1E2E8A1E48547D00079B00 /* SwipeGolf */;
+			targetProxy = 9C1E2EB01E48547D00079B00 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9C1E2E971E48547D00079B00 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C1E2E981E48547D00079B00 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9C1E2E9C1E48547D00079B00 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C1E2E9D1E48547D00079B00 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9C1E2EB61E48547D00079B00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9C1E2EB71E48547D00079B00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9C1E2EB91E48547D00079B00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwipeGolf/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AlexRuber.SwipeGolf;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9C1E2EBA1E48547D00079B00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwipeGolf/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AlexRuber.SwipeGolf;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9C1E2EBC1E48547D00079B00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SwipeGolfTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AlexRuber.SwipeGolfTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwipeGolf.app/SwipeGolf";
+			};
+			name = Debug;
+		};
+		9C1E2EBD1E48547D00079B00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SwipeGolfTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AlexRuber.SwipeGolfTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwipeGolf.app/SwipeGolf";
+			};
+			name = Release;
+		};
+		9C1E2EBF1E48547D00079B00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SwipeGolfUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AlexRuber.SwipeGolfUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SwipeGolf;
+			};
+			name = Debug;
+		};
+		9C1E2EC01E48547D00079B00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SwipeGolfUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AlexRuber.SwipeGolfUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SwipeGolf;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C1E2E861E48547D00079B00 /* Build configuration list for PBXProject "SwipeGolf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C1E2EB61E48547D00079B00 /* Debug */,
+				9C1E2EB71E48547D00079B00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C1E2EB81E48547D00079B00 /* Build configuration list for PBXNativeTarget "SwipeGolf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C1E2EB91E48547D00079B00 /* Debug */,
+				9C1E2EBA1E48547D00079B00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9C1E2EBB1E48547D00079B00 /* Build configuration list for PBXNativeTarget "SwipeGolfTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C1E2EBC1E48547D00079B00 /* Debug */,
+				9C1E2EBD1E48547D00079B00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9C1E2EBE1E48547D00079B00 /* Build configuration list for PBXNativeTarget "SwipeGolfUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C1E2EBF1E48547D00079B00 /* Debug */,
+				9C1E2EC01E48547D00079B00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C1E2E831E48547D00079B00 /* Project object */;
+}
