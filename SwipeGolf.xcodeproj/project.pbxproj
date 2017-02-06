@@ -15,6 +15,10 @@
 		9C1E2E9E1E48547D00079B00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C1E2E9C1E48547D00079B00 /* LaunchScreen.storyboard */; };
 		9C1E2EA91E48547D00079B00 /* SwipeGolfTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1E2EA81E48547D00079B00 /* SwipeGolfTests.m */; };
 		9C1E2EB41E48547D00079B00 /* SwipeGolfUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1E2EB31E48547D00079B00 /* SwipeGolfUITests.m */; };
+		9C1E2EC41E48563500079B00 /* leftarrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C1E2EC11E48563500079B00 /* leftarrow.png */; };
+		9C1E2EC51E48563500079B00 /* rightarrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C1E2EC21E48563500079B00 /* rightarrow.png */; };
+		9C1E2EC61E48563500079B00 /* golf.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C1E2EC31E48563500079B00 /* golf.png */; };
+		9C1E2EC81E4856D500079B00 /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C1E2EC71E4856D500079B00 /* ball.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,10 @@
 		9C1E2EAF1E48547D00079B00 /* SwipeGolfUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwipeGolfUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C1E2EB31E48547D00079B00 /* SwipeGolfUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwipeGolfUITests.m; sourceTree = "<group>"; };
 		9C1E2EB51E48547D00079B00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C1E2EC11E48563500079B00 /* leftarrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leftarrow.png; sourceTree = "<group>"; };
+		9C1E2EC21E48563500079B00 /* rightarrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rightarrow.png; sourceTree = "<group>"; };
+		9C1E2EC31E48563500079B00 /* golf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = golf.png; sourceTree = "<group>"; };
+		9C1E2EC71E4856D500079B00 /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +125,10 @@
 		9C1E2E8E1E48547D00079B00 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9C1E2EC11E48563500079B00 /* leftarrow.png */,
+				9C1E2EC21E48563500079B00 /* rightarrow.png */,
+				9C1E2EC71E4856D500079B00 /* ball.png */,
+				9C1E2EC31E48563500079B00 /* golf.png */,
 				9C1E2E8F1E48547D00079B00 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -245,7 +257,11 @@
 			files = (
 				9C1E2E9E1E48547D00079B00 /* LaunchScreen.storyboard in Resources */,
 				9C1E2E9B1E48547D00079B00 /* Assets.xcassets in Resources */,
+				9C1E2EC51E48563500079B00 /* rightarrow.png in Resources */,
+				9C1E2EC41E48563500079B00 /* leftarrow.png in Resources */,
 				9C1E2E991E48547D00079B00 /* Main.storyboard in Resources */,
+				9C1E2EC61E48563500079B00 /* golf.png in Resources */,
+				9C1E2EC81E4856D500079B00 /* ball.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +432,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SwipeGolf/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.AlexRuber.SwipeGolf;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -427,6 +444,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SwipeGolf/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.AlexRuber.SwipeGolf;
 				PRODUCT_NAME = "$(TARGET_NAME)";
